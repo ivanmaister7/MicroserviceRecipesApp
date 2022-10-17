@@ -1,9 +1,9 @@
-package spring.project.recipes.responce;
+package src.main.java.spring.project.recipes.responce;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
-import spring.project.recipes.domain.Ingredient;
-import spring.project.recipes.domain.Recipe;
+import src.main.java.spring.project.recipes.domain.Ingredient;
+import src.main.java.spring.project.recipes.domain.Recipe;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;

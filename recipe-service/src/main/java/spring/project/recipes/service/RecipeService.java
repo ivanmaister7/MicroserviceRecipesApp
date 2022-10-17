@@ -1,4 +1,4 @@
-package spring.project.recipes.service;
+package src.main.java.spring.project.recipes.service;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpEntity;
@@ -6,13 +6,11 @@ import org.springframework.http.HttpHeaders;
 import org.springframework.http.MediaType;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
-import spring.project.recipes.domain.Ingredient;
-import spring.project.recipes.domain.Recipe;
-import spring.project.recipes.repository.RecipeRepository;
-import spring.project.recipes.responce.RecipeResponce;
+import src.main.java.spring.project.recipes.domain.Ingredient;
+import src.main.java.spring.project.recipes.domain.Recipe;
+import src.main.java.spring.project.recipes.repository.RecipeRepository;
+import src.main.java.spring.project.recipes.responce.RecipeResponce;
 
-import javax.annotation.PostConstruct;
-import java.util.Arrays;
 import java.util.List;
 import java.util.Objects;
 import java.util.stream.Collectors;

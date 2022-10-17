@@ -1,10 +1,10 @@
-package spring.project.recipes.repository;
+package src.main.java.spring.project.recipes.repository;
 
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.data.repository.query.Param;
 import org.springframework.stereotype.Repository;
-import spring.project.recipes.domain.Recipe;
+import src.main.java.spring.project.recipes.domain.Recipe;
 
 import java.util.Collection;
 import java.util.List;

@@ -1,4 +1,4 @@
-package spring.project.recipes.domain;
+package src.main.java.spring.project.recipes.domain;
 
 public enum Unit {
     мл,
